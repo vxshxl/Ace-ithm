@@ -60,12 +60,16 @@ Header
   .top-nav > li > a {
     padding-right: 0;
     padding-left: 0;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 16px;
     font-weight: bold;
     color: #fff;
     color: rgba(255,255,255,.75);
     border-bottom: 2px solid transparent;
+    text-transform: uppercase;
+    text-shadow: none;
+    letter-spacing: .1em;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
   }
 
   .top-nav > .current > a,
@@ -75,13 +79,11 @@ Header
   }
 
   h1 {
-    font-family: 'Gloria Hallelujah', cursive;
     text-align: center;
     padding-top: 2%;
   }
 
   h2, .list-group, .list-group-item {
-    font-family: 'Gloria Hallelujah', cursive;
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
@@ -92,7 +94,7 @@ Header
     margin-right: 15%;
   }
 
-  h3 {
+  h1, h2, h3 {
     text-transform: uppercase;
     text-shadow: none;
     letter-spacing: .2em;
