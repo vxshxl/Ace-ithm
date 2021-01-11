@@ -82,6 +82,7 @@ Header
   h1 {
     text-align: center;
     padding-top: 2%;
+    font-size: 50px;
   }
 
   h2, .list-group, .list-group-item {
@@ -97,11 +98,25 @@ Header
     letter-spacing: .1em;
   }
 
-  h1, h2, h3, .list-group {
+  h1, h2, h3, h4, .list-group {
     text-transform: uppercase;
     text-shadow: none;
     letter-spacing: .2em;
     font-weight: 200;
-    font-size: 50px;
     color: rgb(255, 255, 255);
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 13px;
+    letter-spacing: .1em;
+    padding-top: 2%;
+  }
+
+  .text-message {
+    font-size: 30px;
+    letter-spacing: .05em;
   }
