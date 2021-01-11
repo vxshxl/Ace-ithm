@@ -76,6 +76,7 @@ Header
   .top-nav > .current > a:hover {
     color: #fff;
     border-bottom-color: #fff;
+    background-color: transparent;
   }
 
   h1 {
@@ -92,9 +93,11 @@ Header
     padding-top: 5%;
     margin-left: 15%;
     margin-right: 15%;
+    font-size: 20px;
+    letter-spacing: .1em;
   }
 
-  h1, h2, h3 {
+  h1, h2, h3, .list-group {
     text-transform: uppercase;
     text-shadow: none;
     letter-spacing: .2em;
