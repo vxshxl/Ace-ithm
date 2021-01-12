@@ -64,7 +64,7 @@ Create three equal columns that floats next to each other
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1460px) {
+@media screen and (max-width: 1300px) {
   .column {
     width: 100%;
   }
@@ -109,6 +109,7 @@ Header
     overflow: hidden;
   }
 
+
   .sticky {
     position: fixed;
     top: 0;
@@ -148,7 +149,8 @@ Header
   }
 
   h3 {
-    font-size: 50px;
+    font-size: 75px;
+    letter-spacing: .2em;
   }
 
   h4 {
