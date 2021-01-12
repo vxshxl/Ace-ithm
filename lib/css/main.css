@@ -14,6 +14,7 @@ html,
 body {
     height: 100%;
     background-color: #333;
+    scroll-behavior: smooth;
 }
 body {
     color: #fff;
@@ -102,6 +103,21 @@ Header
     color: #fff;
     border-bottom-color: #fff;
     background-color: transparent;
+  }
+
+  #nav {
+    overflow: hidden;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: right;
+  }
+
+  .sticky + .wrapper {
+    padding-top: 60px;
   }
 
   h1 {

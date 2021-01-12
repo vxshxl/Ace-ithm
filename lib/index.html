@@ -20,7 +20,7 @@
       <div class="container">
         <div class="inner">
           <nav>
-            <ul class="top-nav nav navbar-nav navbar-right">
+            <ul class="top-nav nav navbar-nav navbar-right" id= "navbar">
               <li class="current"><a href="#">Home</a></li>
               <li><a href="pricing.html">Prices</a></li>
               <li><a href="booking.html">Book Now</a></li>
@@ -61,5 +61,19 @@
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar")
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 </body>
 </html>
