@@ -98,6 +98,11 @@ Header
     color: rgb(255, 255, 255);
   }
 
+  .top-nav > li > a:hover {
+    background-color: transparent;
+    color: rgb(139, 33, 14);
+  }
+
   .top-nav > .current > a,
   .top-nav > .current > a:hover {
     color: #fff;
