@@ -56,6 +56,20 @@ Create three equal columns that floats next to each other
 
 }
 
+.column2 {
+  float: left;
+  /* width: 50%; */
+  padding: 30px;
+}
+
+.left {
+  width: 50%
+}
+
+.right {
+  width: 50%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -65,7 +79,7 @@ Create three equal columns that floats next to each other
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1300px) {
-  .column {
+  .column, .column2 {
     width: 100%;
   }
 }
@@ -114,18 +128,6 @@ Header
     overflow: hidden;
   }
 
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float: right;
-  }
-
-  .sticky + .wrapper {
-    padding-top: 60px;
-  }
-
   h1 {
     text-align: center;
     padding-top: 2%;
@@ -146,7 +148,7 @@ Header
   }
 
   h1, h2, h3, h4, .list-group {
-    text-transform: none;
+    text-transform: uppercase;
     text-shadow: none;
     letter-spacing: .2em;
     font-weight: 200;
@@ -162,6 +164,14 @@ Header
     font-size: 13px;
     letter-spacing: .1em;
     padding-top: 2%;
+  }
+
+  h5 {
+    font-size: 20px;
+    text-shadow: none;
+    letter-spacing: .2em;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
   }
 
   .text-message {
