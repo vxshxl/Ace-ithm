@@ -152,7 +152,8 @@ Header
     font-size: 50px;
   }
 
-  h2, .list-group, .list-group-item {
+  /* Pricing Page*/
+  h2, .list-group, .list-group-item, .list-group-item {
     border-top: transparent;
     border-left: transparent;
     border-right: transparent;
@@ -163,6 +164,18 @@ Header
     margin-right: 15%;
     font-size: 25px;
     letter-spacing: .1em;
+  }
+
+  .list-group, .list-group-item, .left {
+    margin-right: 40%;
+    font-size: 15px;
+    float: left;
+  }
+
+  .list-group, .list-group-item, .right {
+    margin-left: 40%;
+    font-size: 15px;
+    float: right;
   }
 
   h3 {
@@ -199,3 +212,31 @@ Header
     font-size: 30px;
     letter-spacing: .05em;
   }
+
+  .animated {
+    -webkit-animation-duration: 10s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+ /* Fade In Effect */
+ @-webkit-keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.banner {
+  max-width: 100%;
+  height: auto;
+}
