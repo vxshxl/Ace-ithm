@@ -13,7 +13,7 @@ Base
 html,
 body {
     height: 100%;
-    background-color: #333;
+    background: radial-gradient(closest-side,rgb(39,39,39),rgb(39,39,39), rgb(28,28,28));
     scroll-behavior: smooth;
 }
 body {
