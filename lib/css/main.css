@@ -253,3 +253,10 @@ h8 {
 .price {
   font-weight: 200;
 }
+
+@media screen and (max-width:600px) {
+  .price-item {
+    padding-bottom:50px;
+    padding-left: 25%;
+  }
+}
