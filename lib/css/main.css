@@ -142,7 +142,7 @@ Header
     text-transform: uppercase;
     text-shadow: none;
     letter-spacing: .2em;
-    font-weight: 200;
+    font-weight: 350;
     color: rgb(255, 255, 255);
   }
 
@@ -248,4 +248,8 @@ h8 {
 
 .more {
   font-size: 3vw;
+}
+
+.price {
+  font-weight: 200;
 }
