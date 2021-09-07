@@ -255,7 +255,7 @@ h8 {
 }
 
 @media screen and (max-width:600px) {
-  .price-item {
+  .price-item1 {
     padding-bottom:50px;
     padding-left: 25%;
   }
